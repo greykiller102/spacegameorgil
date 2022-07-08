@@ -124,7 +124,7 @@ function Component(img,x,y,width,height,isBullet,isShip,isComet,color,dx,dy){
 				  Swal.fire({
 						
 					title: 'OH NO!',
-					text: 'Space rock fucked you up GG',
+					text: 'You hit by space-rock in 1st round.Score: '+haruul,
 					imageUrl: './images/suirel.jpg',
 					imageWidth: 400,
 					imageHeight: 200,
