@@ -3,7 +3,7 @@
 
 
 #canvas{
-  background-image: url(./images/1EDE10AF-E05F-4517-94C8111121EA127A_source.webp);
+  background-image: url(./1EDE10AF-E05F-4517-94C8111121EA127A_source.webp);
   display: block;
   width: 600px;
   height: 620px;
@@ -18,7 +18,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(./images/bg.webp);
+  background-image: url(./bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   flex-direction: column;
@@ -30,7 +30,7 @@ body{
   height: 100px;
   text-align: center;
   color: rgb(110, 34, 109);
-  background-image:url(./images/Space-PNG-Pic.gif);
+  background-image:url(./Space-PNG-Pic.gif);
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
