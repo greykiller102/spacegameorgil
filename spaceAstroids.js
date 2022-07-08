@@ -44,7 +44,7 @@ function startGame(){
 		background:"black",
 		color:"white",
 		font:"font-family: 'VT323', monospace;",
-		imageUrl: './images/kino.jpg',
+		imageUrl: './kino.jpg',
 		imageWidth: 400,
 		imageHeight: 200,
 		imageAlt: 'Custom image',
@@ -52,7 +52,7 @@ function startGame(){
 		if (result.isConfirmed) {
 			Swal.fire({
 				text: 'We need to defend our ship!',
-				imageUrl: './images/defend.jpg',
+				imageUrl: './defend.jpg',
 				background:"black",
 				color:"white",
 				font:"Roboto",
@@ -64,7 +64,7 @@ function startGame(){
 					Swal.fire({
 						
 						text: 'Get on your battle-ship and shoot them all!',
-						imageUrl: './images/rocks.jpg',
+						imageUrl: './rocks.jpg',
 						imageWidth: 400,
 						imageHeight: 200,
 						background:"black",
@@ -125,7 +125,7 @@ function Component(img,x,y,width,height,isBullet,isShip,isComet,color,dx,dy){
 						
 					title: 'OH NO!',
 					text: 'You hit by space-rock in 1st round.Score: '+haruul,
-					imageUrl: './images/suirel.jpg',
+					imageUrl: '.suirel.jpg',
 					imageWidth: 400,
 					imageHeight: 200,
 					background:"black",
@@ -142,7 +142,7 @@ function Component(img,x,y,width,height,isBullet,isShip,isComet,color,dx,dy){
 						
 					title: 'Rest in peace soldier',
 					text: 'You did your best.Your score is '+ haruul,
-					imageUrl: './images/suirel.jpg',
+					imageUrl: './suirel.jpg',
 					imageWidth: 400,
 					imageHeight: 200,
 					background:"black",
@@ -151,7 +151,7 @@ function Component(img,x,y,width,height,isBullet,isShip,isComet,color,dx,dy){
 					imageAlt: 'Custom image',
 					backdrop: `
 			  		rgba(0,0,123,0.4)
-			  		url("/images/pngwing.com.png")
+			  		url("/pngwing.com.png")
 			  		left top
 			  		no-repeat
 					`,
@@ -326,10 +326,10 @@ function nextround(str){
 			padding: '3em',
 			color: '#716add',
 			font:"Roboto",
-			background: '#fff url(./images/Space-PNG-Pic.gif)',
+			background: '#fff url(./Space-PNG-Pic.gif)',
 			backdrop: `
 			  rgba(0,0,123,0.4)
-			  url("./images/pngwing.com.png")
+			  url("./pngwing.com.png")
 			  left top
 			  no-repeat
 			`
@@ -354,7 +354,7 @@ function nextround(str){
 				imageAlt: 'Custom image',
 				backdrop: `
 				  rgba(0,0,123,0.4)
-				  url("/images/pngwing.com.png")
+				  url("/pngwing.com.png")
 				  left top
 				  no-repeat
 				`,
