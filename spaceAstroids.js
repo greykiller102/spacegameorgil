@@ -44,7 +44,7 @@ function startGame(){
 		background:"black",
 		color:"white",
 		font:"font-family: 'VT323', monospace;",
-		imageUrl: '/images/kino.jpg',
+		imageUrl: './images/kino.jpg',
 		imageWidth: 400,
 		imageHeight: 200,
 		imageAlt: 'Custom image',
@@ -52,7 +52,7 @@ function startGame(){
 		if (result.isConfirmed) {
 			Swal.fire({
 				text: 'We need to defend our ship!',
-				imageUrl: '/images/defend.jpg',
+				imageUrl: './images/defend.jpg',
 				background:"black",
 				color:"white",
 				font:"Roboto",
@@ -64,7 +64,7 @@ function startGame(){
 					Swal.fire({
 						
 						text: 'Get on your battle-ship and shoot them all!',
-						imageUrl: '/images/rocks.jpg',
+						imageUrl: './images/rocks.jpg',
 						imageWidth: 400,
 						imageHeight: 200,
 						background:"black",
@@ -329,7 +329,7 @@ function nextround(str){
 			background: '#fff url(./images/Space-PNG-Pic.gif)',
 			backdrop: `
 			  rgba(0,0,123,0.4)
-			  url("/images/pngwing.com.png")
+			  url("./images/pngwing.com.png")
 			  left top
 			  no-repeat
 			`
